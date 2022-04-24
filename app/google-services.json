@@ -1,39 +1,36 @@
 {
   "project_info": {
-    "project_number": "313715264349",
-    "firebase_url": "https://musica-cb289.firebaseio.com",
-    "project_id": "musica-cb289",
-    "storage_bucket": "musica-cb289.appspot.com"
+    "project_number": "762895362961",
+    "project_id": "pocketkaraoke-b39db",
+    "storage_bucket": "pocketkaraoke-b39db.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:313715264349:android:b64e523819013047",
+        "mobilesdk_app_id": "1:762895362961:android:69abf7406596f0c8cf4830",
         "android_client_info": {
-          "package_name": "bhatia.rohan.musica"
+          "package_name": "fusan.pocketkaraoke"
         }
       },
       "oauth_client": [
         {
-          "client_id": "313715264349-i6mtp5l0j870297tkgu5gm2a49buu570.apps.googleusercontent.com",
+          "client_id": "762895362961-gh9uvf3ipheeaidk8koe8i2659shshv5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDuupcK8FbIouRZll6TfUcZTxoP0jJaYtM"
+          "current_key": "AIzaSyCgFHq-JbfAzMTLQO9m8h9eYeMZ6tcyj1Q"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762895362961-gh9uvf3ipheeaidk8koe8i2659shshv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

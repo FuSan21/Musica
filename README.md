@@ -1,8 +1,8 @@
-# Musica
+# PocketKaraoke
 
 ## What is this project?
 
-Musica is a karaoke app for Android. You can sing along popular songs and get scored based on your singing.
+PocketKaraoke is a karaoke app for Android. You can sing along popular songs and get scored based on your singing.
 
 ## Why did I make this project?
 

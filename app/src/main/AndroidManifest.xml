@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="bhatia.rohan.musica">
+    package="fusan.pocketkaraoke">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -13,22 +13,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity">
+        <activity android:name="fusan.pocketkaraoke.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".SignupActivity" />
-        <activity android:name=".ForgotActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".KaraokeActivity" />
-        <activity android:name=".ChallengeSentActivity" />
-        <activity android:name=".ChallengeReceiveActivity" />
-        <activity android:name=".ChallengeHistory" />
-        <activity android:name=".EffectsActivity"></activity>
+        <activity android:name="fusan.pocketkaraoke.LoginActivity" />
+        <activity android:name="fusan.pocketkaraoke.SignupActivity" />
+        <activity android:name="fusan.pocketkaraoke.ForgotActivity" />
+        <activity android:name="fusan.pocketkaraoke.MainActivity" />
+        <activity android:name="fusan.pocketkaraoke.KaraokeActivity" />
+        <activity android:name="fusan.pocketkaraoke.ChallengeSentActivity" />
+        <activity android:name="fusan.pocketkaraoke.ChallengeReceiveActivity" />
+        <activity android:name="fusan.pocketkaraoke.ChallengeHistory" />
+        <activity android:name="fusan.pocketkaraoke.EffectsActivity"></activity>
     </application>
 
 </manifest>

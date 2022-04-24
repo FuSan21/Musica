@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/activity_karaoke"
     android:background="#000"
-    tools:context="bhatia.rohan.musica.KaraokeActivity">
+    tools:context="fusan.pocketkaraoke.KaraokeActivity">
 
 
     <RelativeLayout
