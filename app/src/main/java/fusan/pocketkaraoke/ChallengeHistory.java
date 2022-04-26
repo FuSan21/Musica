@@ -33,7 +33,7 @@ public class ChallengeHistory extends AppCompatActivity {
         count = 0;
         lv = (ListView) findViewById(R.id.HistoryListView);
         userID = auth.getCurrentUser().getUid();
-        ref = new Firebase("https://pocketkaraoke-cb289.firebaseio.com/");
+        ref = new Firebase("https://pocketkaraoke-b39db.firebaseio.com/");
         val = ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {

@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by Fusan on 26-Nov-16.
+ * Created by Fusan on 26-Mar-22.
  */
 
 public class CustomList extends ArrayAdapter<String> {

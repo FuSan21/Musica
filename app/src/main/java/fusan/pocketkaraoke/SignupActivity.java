@@ -31,7 +31,7 @@ public class SignupActivity extends AppCompatActivity {
         mName = (EditText) findViewById(R.id.name);
         auth = FirebaseAuth.getInstance();
         Firebase.setAndroidContext(this);
-        ref = new Firebase("https://pocketkaraoke-cb289.firebaseio.com/");
+        ref = new Firebase("https://pocketkaraoke-b39db.firebaseio.com/");
     }
     public void createDataBase(String name)
     {

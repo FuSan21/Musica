@@ -46,9 +46,9 @@ public class ChallengeSentActivity extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
         userID = auth.getCurrentUser().getUid();
-        refAll = new Firebase("https://pocketkaraoke-cb289.firebaseio.com/");
-        ref = new Firebase("https://pocketkaraoke-cb289.firebaseio.com/Users");
-        refMe = new Firebase("https://pocketkaraoke-cb289.firebaseio.com/Users/" + userID);
+        refAll = new Firebase("https://pocketkaraoke-b39db.firebaseio.com/");
+        ref = new Firebase("https://pocketkaraoke-b39db.firebaseio.com/Users");
+        refMe = new Firebase("https://pocketkaraoke-b39db.firebaseio.com/Users/" + userID);
         list = (ListView)findViewById(R.id.listView);
         challengeID = "";
         count = 0;

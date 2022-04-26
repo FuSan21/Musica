@@ -1,7 +1,7 @@
 package fusan.pocketkaraoke;
 
 /**
- * Created by Fusan on 26-Nov-16.
+ * Created by Fusan on 26-Mar-22.
  */
 
 public class User {

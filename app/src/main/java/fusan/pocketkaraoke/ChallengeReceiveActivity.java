@@ -42,7 +42,7 @@ public class ChallengeReceiveActivity extends AppCompatActivity {
         arr = songList.getArr();
 
         listView = (ListView)findViewById(R.id.ChallengeListView);
-        ref = new Firebase("https://pocketkaraoke-cb289.firebaseio.com/");
+        ref = new Firebase("https://pocketkaraoke-b39db.firebaseio.com/");
         auth = FirebaseAuth.getInstance();
         emailIDs = new ArrayList<String>();
         challengeIDs = new ArrayList<String>();

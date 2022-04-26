@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,7 +17,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by Fusan on 28-Nov-16.
+ * Created by Fusan on 28-Mar-22.
  */
 
 public class SecondFragment extends Fragment {
@@ -36,8 +37,8 @@ public class SecondFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_second, container, false);
         setHasOptionsMenu(true);
-
         path = Environment.getExternalStorageDirectory().getAbsolutePath();
+        Log.d("debugxx",path);
         filePath= new File(path+"/PocketKaraoke/YourRecordings");
         fileList = filePath.listFiles();
         pos=-1;

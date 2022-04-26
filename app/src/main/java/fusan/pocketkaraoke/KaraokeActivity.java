@@ -70,27 +70,27 @@ public class KaraokeActivity extends AppCompatActivity {
         abc = obj.getExtras();
         num = abc.getInt("pos");
         choice = abc.getInt("choice");
-        ref = new Firebase("https://pocketkaraoke-cb289.firebaseio.com/");
+        ref = new Firebase("https://pocketkaraoke-b39db.firebaseio.com/");
         auth = FirebaseAuth.getInstance();
         userID = auth.getCurrentUser().getUid();
         Firebase.setAndroidContext(this);
 
         switch (num) {
             case 0:
-                song_name = "Hai Junoon";
-                ext = "/PocketKaraoke/hai_junoon.mp3";
-                Rid = R.raw.hai_junoon_lyrics;
+                song_name = "Aj Raate Kono Rupkotha Nei";
+                ext = "/PocketKaraoke/aj_raate_kono_rupkotha_nei.mp3";
+                Rid = R.raw.aj_raate_kono_rupkotha_nei_lyrics;
                 break;
 
             case 1:
-                song_name = "Wonderwall";
-                ext = "/PocketKaraoke/wonderwall.mp3";
-                Rid = R.raw.wonderwall_lyrics;
+                song_name = "Numb";
+                ext = "/PocketKaraoke/numb.mp3";
+                Rid = R.raw.numb_lyrics;
                 break;
 
             default:
-                ext = "/PocketKaraoke/hai_junoon.mp3";
-                Rid = R.raw.hai_junoon_lyrics;
+                ext = "/PocketKaraoke/aj_raate_kono_rupkotha_nei.mp3";
+                Rid = R.raw.aj_raate_kono_rupkotha_nei_lyrics;
                 break;
 
         }

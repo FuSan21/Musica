@@ -1,7 +1,7 @@
 package fusan.pocketkaraoke;
 
 /**
- * Created by Fusan on 27-Nov-16.
+ * Created by Fusan on 27-Mar-22.
  */
 
 public class SongList {
@@ -11,8 +11,8 @@ public class SongList {
     public SongList()
     {
         list = new String[2];
-        list[0]="Hai Junoon";
-        list[1]="Wonderwall";
+        list[0]="Aj Raate Kono Rupkotha Nei";
+        list[1]="Numb";
     }
 
     public String[] getArr()
